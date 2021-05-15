@@ -61,6 +61,7 @@ a{
 }
 
 .subtitle{
+    margin-left: .5rem;
     color: #FFF;
     font-size: 1.4rem;
 }
@@ -76,13 +77,15 @@ a{
 
 /* O container da postagem, que no caso é o article html */
 .post{
-    color: #505050;
-    font-size: 1.1rem;
-    background: #FFF;
-    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
     border: 2px solid #505050;
     border-radius: 1%;
-    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: #505050;
+    background: #FFF;
 }
 
 .post a {
@@ -120,6 +123,8 @@ a{
 }
 
 .footer_page{
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 1%;
@@ -135,12 +140,12 @@ a{
 }
 .footer_page iframe{
     box-sizing: border-box;
-    border: 5px solid #000;
+    border: .0875rem solid #000;
     border-radius: 5px;
     width: 95%;
     height: 20rem;
     margin: 0 5px 0 5px;
-    margin-bottom: 20px;
+    margin-bottom: .30rem;
 }
 
 .contact_list{
@@ -150,8 +155,9 @@ a{
     /* list-style-type: "\1F44D"; */
     /* list-style-image: url(''); */
     list-style: none;
-    
-    padding-left: 15px;
+    text-align: center;
+    margin: 5px;
+    padding: 0;
     display: flex;
     justify-content: space-around;
 }
