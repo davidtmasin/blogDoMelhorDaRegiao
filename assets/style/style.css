@@ -113,6 +113,12 @@ a{
     width: 100%;
 }
 
+.footer_article{
+    font-size: 0.875rem;
+    font-style: italic;
+    color: #505050;
+}
+
 footer{
     color: #FFF;
 }
