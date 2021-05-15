@@ -133,11 +133,13 @@ a{
     color: #505050;
     text-align: center;
 }
+
 .footer_page h4{
     font-size: 2rem;
     margin-top: 5px;
     margin-bottom: 0;
 }
+
 .footer_page iframe{
     box-sizing: border-box;
     border: .0875rem solid #000;
@@ -148,8 +150,7 @@ a{
     margin-bottom: .30rem;
 }
 
-.contact_list{
-    
+.contact_list{    
     /* list-style-type: square; */
     /* list-style-type: upper-roman; */
     /* list-style-type: "\1F44D"; */
@@ -163,6 +164,8 @@ a{
 }
 
 .contact_list li a{
+    font-weight: 600;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #505050;
 }
