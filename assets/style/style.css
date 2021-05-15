@@ -32,7 +32,7 @@ body {
 /* Título do 1º header */
 #title {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: 'Rajdhani';
   /* text-transform: capitalize; */
   text-align: center;
@@ -159,13 +159,13 @@ a {
   /* list-style-type: "\1F44D"; */
   /* list-style-image: url(''); */
   list-style: none;
-  margin: 10px 0 20px;
+  margin: 5px 0 15px;
   padding: 5px 0 0 0;
   text-align: center;
 }
 
 .contact_list li {
-  margin: 15px 30px 0 30px;
+  margin: 10px 20px 0 20px;
   text-align: center;
   display: inline-block;
 }
@@ -173,7 +173,7 @@ a {
 
 
 .contact_list li i {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .contact_list li p {
@@ -202,3 +202,12 @@ a {
   padding: 0;
   font-size: 0.875rem;
 }
+
+#copyright{
+    color: #fff;
+    margin: 10px 0;
+    padding: 0;
+
+
+}
+
