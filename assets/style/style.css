@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,300;0,400;1,200;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap');
 
 body {
   background-image: url('../img/background3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: KoHo, Verdana;
+  font-family: 'KoHo', Verdana;
 
   max-width: 900px;
   margin: auto;
@@ -31,8 +32,9 @@ body {
 /* Título do 1º header */
 #title {
   color: #fff;
-  font-size: 2.1rem;
-  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: 'Rajdhani';
+  /* text-transform: capitalize; */
   text-align: center;
   padding: 0;
   margin: 10px 5px 0 5px;
@@ -42,7 +44,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: KoHo;
+  font-family: 'KoHo';
   font-style: italic;
 
   transition: all ease 0.4s;
@@ -168,36 +170,7 @@ a {
   display: inline-block;
 }
 
-#instagram {
-  width: 40px;
-  border-radius: 10%;
-  background: #f09433;
-  background: -moz-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-}
+
 
 .contact_list li i {
   font-size: 40px;
