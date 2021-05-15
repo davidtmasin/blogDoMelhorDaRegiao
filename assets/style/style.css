@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,300;0,400;1,200;1,500;1,600&display=swap');
 
 body{
-    
-    /* background: #f7f7f7; */
-    background: url('https://www.riocariocatour.com.br/rct2/wp-content/uploads/2020/07/Churrascaria.jpg');
+    background-image: url('../img/background2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family:  KoHo, Verdana;
