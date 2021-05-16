@@ -9,6 +9,7 @@
     <title>Blog: O melhor da região</title>
 </head>
 <body>
+    <!-- Cabeçalho do website com logo, título e subtítulo -->
     <header>
         <img src="./assets/img/omelhordaregião.jpg" alt="Logo do espetinho da esquina" class="photo" title ="O melhor da região">
         <h1 id="title">Espetinho da Esquina</h1>
@@ -16,13 +17,15 @@
         <!-- <p><strong>HEADER</strong>: É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.</p>         -->
     </header>
 
+    <!-- Parte para trazer a data completa atual -->
     <section>
         <header>
-            <h2 class="subtitle" id="date">Blog</h2>
+            <h2 class="subtitle" id="date">Data Completa</h2>
             <!-- <p><strong>SECTION</strong>: Representa uma seção genérica de conteúdo quando não houver um elemento mais específico para isso.</p> -->
         </header>        
     </section>
 
+    <!-- POST #1 -->
     <article class="post">
         <header>
             <h3 class="post_title">Garanta seu fim de semana</h3>
@@ -33,6 +36,7 @@
         <footer class="footer_article">Postado em 15.05.2021, às 10:30.</footer>     
     </article>
     
+    <!-- POST #2 -->
     <article class="post">
         <header>
             <h3 class="post_title">O melhor espetinho da região</h3>
@@ -48,6 +52,50 @@
         <footer class="footer_article">Postado em 15.05.2021, às 14:30.</footer>   
     </article>
 
+    <!-- POST #3 -->
+    <article class="post" >
+        <header id="spoiler1">
+            <h3 class="post_title">É qualidade que você quer?</h3>
+            <img src="./assets/img/post3.jpg" alt="HTML CODE" class="img_post">
+            <p class="post_content">
+                A CERTEZA DE UMA ÓTIMA QUALIDADE 🥩🍢🍲
+                <br>
+                ✅VEM PRO MELHOR DA REGIÃO
+            </p>       
+        </header>
+        <footer class="footer_article">Postado em 16.05.2021, às 09:10.</footer>
+        
+        <button title="Clique para mostrar/ocultar" type="button" onclick="if(document.getElementById('spoiler1') .style.display=='none') {document.getElementById('spoiler1') .style.display=''}else{document.getElementById('spoiler1') .style.display='none'}">
+            <i class="far fa-eye-slash" id="mudar1" onclick="
+
+            if (document.getElementById('mudar1').getAttribute('class') === 'far fa-eye-slash'){
+                    document.getElementById('mudar1').setAttribute('class', 'far fa-eye');
+                } else{
+                    document.getElementById('mudar1').setAttribute('class', 'far fa-eye-slash');
+                }            
+            "></i>
+        </button>
+    </article> 
+  
+    <!-- POST #4 -->
+    <article class="post">
+        <header id="spoiler2">
+            <h3 class="post_title">Seja fitness com a gente!</h3>
+            <img src="./assets/img/post4.jpg" alt="HTML CODE" class="img_post">
+            <p class="post_content">
+                Peça Em nosso Delivery 987977189 e tenha QUALIDADE E PREÇO JUSTO na sua casa!
+                <br>
+                Estamos disponíveis também para retirada no local 🍢🍲🥩
+            </p>
+        </header>
+               
+        <footer class="footer_article">Postado em 16.05.2021, às 09:30.</footer>
+        <button title="Clique para mostrar/ocultar" type="button" onclick="if(document.getElementById('spoiler2') .style.display=='none') {document.getElementById('spoiler2') .style.display=''}else{document.getElementById('spoiler2') .style.display='none'}">
+            <i class="far fa-eye-slash" id="mudar2" onclick="toggleIcon()"></i>
+        </button>
+    </article>
+
+    <!-- Os dois asides abaixo são para implementar o menu lateral -->
     <aside id="opened" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="http://davidtmasin.github.io/" target="_blank">Sobre o DEV</a>
@@ -56,13 +104,13 @@
         <a href="https://www.linkedin.com/in/davidteixeirademasin/" target="_blank">LinkedIN</a>
         <a href="https://twitter.com/davidtmasin" target="_blank">Twitter</a>
         <a href="https://www.instagram.com/dteixeira.92/" target="_blank">Instagram</a>
-    </aside>
-    
+    </aside>    
     <aside id="collapsed">
         <button class="openbtn" onclick="openNav()">☰</button>
         <!-- <p><strong>ASIDE</strong>: É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.</p> -->
     </aside>
 
+    <!-- Rodapé da página -->
     <footer class="footer_page">
         <h4>Funcionamento</h4>
         <p style="font-size: 1.25rem; margin: 5px 5px 10px 5px;">Nosso horário de funcionamento é das 10h30 às 23h30, de terça a sábado, e das 10h às 15h, aos domingos.</p>
@@ -102,8 +150,12 @@
         <p class="footer_text">O melhor lugar para você e sua família! Aqui você encontra: qualidade e preço justo!</p>
         <p class="footer_text">Agradecemos a sua preferência!</p>
     </footer>
+
+    <!-- Frase de explicação do projeto -->
     <p id="copyright">Desenvolvido por <span id="github"><a href="https://github.com/davidtmasin">David Teixeira</a></span>. Este website é um projeto educacional que foi inspirado em uma empresa real, o Espetinho da Esquina: O melhor da região.</p>
     <div id="go_back"><a href="#">Topo  <i class="fas fa-arrow-up"></i></a></div>
+
+    <!-- Importação do script app.js -->
     <script src="./assets/script/app.js"></script>
 </body>
 </html>
