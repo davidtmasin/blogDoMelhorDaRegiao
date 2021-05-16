@@ -30,7 +30,6 @@ subtitle.innerHTML = completeDate
 
 
 // Criando a funcionalidade do sidebard
-
 function openNav() {
     document.getElementById("opened").style.width = "250px";
     document.getElementById("collapsed").style.marginLeft = "250px";

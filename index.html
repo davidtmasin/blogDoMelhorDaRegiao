@@ -54,7 +54,7 @@
 
     <!-- POST #3 -->
     <article class="post" >
-        <header id="spoiler1">
+        <header id="spoiler1" style="display:none;">
             <h3 class="post_title">É qualidade que você quer?</h3>
             <img src="./assets/img/post3.jpg" alt="HTML CODE" class="img_post">
             <p class="post_content">
@@ -65,10 +65,9 @@
         </header>
         <footer class="footer_article">Postado em 16.05.2021, às 09:10.</footer>
         
-        <button title="Clique para mostrar/ocultar" type="button" onclick="if(document.getElementById('spoiler1') .style.display=='none') {document.getElementById('spoiler1') .style.display=''}else{document.getElementById('spoiler1') .style.display='none'}">
+        <button title="Clique para mostrar/ocultar" type="button" onclick="if(document.getElementById('spoiler1') .style.display === 'none') {document.getElementById('spoiler1') .style.display=''}else{document.getElementById('spoiler1') .style.display='none'}">
             <i class="far fa-eye-slash" id="mudar1" onclick="
-
-            if (document.getElementById('mudar1').getAttribute('class') === 'far fa-eye-slash'){
+                if (document.getElementById('mudar1').getAttribute('class') === 'far fa-eye-slash'){
                     document.getElementById('mudar1').setAttribute('class', 'far fa-eye');
                 } else{
                     document.getElementById('mudar1').setAttribute('class', 'far fa-eye-slash');
@@ -79,7 +78,7 @@
   
     <!-- POST #4 -->
     <article class="post">
-        <header id="spoiler2">
+        <header id="spoiler2" style="display:none;">
             <h3 class="post_title">Seja fitness com a gente!</h3>
             <img src="./assets/img/post4.jpg" alt="HTML CODE" class="img_post">
             <p class="post_content">
