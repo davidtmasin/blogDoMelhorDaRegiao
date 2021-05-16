@@ -32,7 +32,7 @@ body {
 /* Título do 1º header */
 #title {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-family: 'Rajdhani';
   /* text-transform: capitalize; */
   text-align: center;
@@ -126,7 +126,7 @@ a {
 .footer_page {
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   padding-bottom: 10px;
   border-radius: 1%;
@@ -205,9 +205,9 @@ a {
 
 #copyright{
     color: #fff;
-    margin: 10px 0;
-    padding: 0;
-
-
+    margin-left: 5px;
+    text-align: justify;
+    font-size: 0.775rem;
+    font-family: 'Rajdhani';
 }
 
