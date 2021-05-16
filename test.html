@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <style>
+        body{
+            background-image: url('https://cdn.hipwallpaper.com/i/19/63/DhzTAr.jpg');
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        .img-slide{
+            width: 50%;
+            height: 50vh;
+            display: flex;
+        }
+
+        .img{
+            flex: 1;
+            height: 100%;
+            transform: skew(5deg);
+            cursor: pointer;
+            margin: 0 2px;
+            transition: all 0.3s;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .img1{
+            background-image: url('https://cdn.hipwallpaper.com/i/8/71/euSdl3.jpg');
+        }
+        .img2{
+            background-image: url('https://wallpaperaccess.com/full/7445.jpg');
+        }
+        .img3{
+            background-image: url('https://www.sopapeldeparede.com.br/wp-content/uploads/2015/07/wallpaper-games-hd-wallpaper.jpg');
+        }
+        .img4{
+            background-image: url('https://i.ytimg.com/vi/Oxs2iR8Sag4/maxresdefault.jpg');
+        }
+        
+
+        .img p{
+            position: absolute;
+            left: 0; bottom: 0;
+            padding: 10px;
+            background-color: rgba(0,0,0,0.6);
+            transform: rotate(-90deg);
+            transition: all 0.3s;
+            transform-origin: 0% 0%;
+            color: #FFF;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .img-slide:hover .img{
+            transform: skew(0);
+        }
+        
+        .img:hover{
+            flex: 5;
+        }
+
+        .img:hover p{
+            background-color: transparent;
+            border: 2px solid #FFF;
+            color: #FFF;
+            transform: rotate(0deg);
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="img-slide">
+      <div class="img img1">
+        <p>IMAGEM 1</p>
+      </div>
+      <div class="img img2">
+        <p>IMAGEM 2</p>
+      </div>
+      <div class="img img3">
+        <p>IMAGEM 3</p>
+      </div>
+      <div class="img img4">
+        <p>IMAGEM 4</p>
+      </div>
+    </div>
+  </body>
+</html>
