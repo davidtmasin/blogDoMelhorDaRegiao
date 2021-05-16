@@ -39,14 +39,27 @@
             <img src="./assets/img/post2.jpg" alt="HTML CODE" class="img_post">
         </header>
         <p class="post_content">
-            Aqui Você Encontra Qualidade e Preço Justo O MELHOR ESPETINHO DA REGIÃO 🥩🍢🍲
+            Aqui você encontra qualidade e preço justo o MELHOR ESPETINHO DA REGIÃO 🥩🍢🍲
+            <br>
             ✅Atendimento Presencial 11 as 17 horas
+            <br>
             ✅Delivery 987977189
         </p>       
         <footer class="footer_article">Postado em 15.05.2021, às 14:30.</footer>   
     </article>
 
-    <aside>
+    <aside id="opened" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="http://davidtmasin.github.io/" target="_blank">Sobre o DEV</a>
+        <a href="https://github.com/davidtmasin" target="_blank">Github</a>
+        <a href="https://codepen.io/davidtmasin" target="_blank">CodePen</a>
+        <a href="https://www.linkedin.com/in/davidteixeirademasin/" target="_blank">LinkedIN</a>
+        <a href="https://twitter.com/davidtmasin" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/dteixeira.92/" target="_blank">Instagram</a>
+    </aside>
+    
+    <aside id="collapsed">
+        <button class="openbtn" onclick="openNav()">☰</button>
         <!-- <p><strong>ASIDE</strong>: É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.</p> -->
     </aside>
 
@@ -89,7 +102,7 @@
         <p class="footer_text">O melhor lugar para você e sua família! Aqui você encontra: qualidade e preço justo!</p>
         <p class="footer_text">Agradecemos a sua preferência!</p>
     </footer>
-    <p id="copyright">Desenvolvido por David Teixeira. Este website é um projeto educacional que foi inspirado em uma empresa real, o Espetinho da Esquina: O melhor da região.</p>
+    <p id="copyright">Desenvolvido por <span id="github"><a href="https://github.com/davidtmasin">David Teixeira</a></span>. Este website é um projeto educacional que foi inspirado em uma empresa real, o Espetinho da Esquina: O melhor da região.</p>
     <div id="go_back"><a href="#">Topo  <i class="fas fa-arrow-up"></i></a></div>
     <script src="./assets/script/app.js"></script>
 </body>
