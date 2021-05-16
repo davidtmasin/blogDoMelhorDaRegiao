@@ -127,7 +127,7 @@ a {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding-bottom: 10px;
   border-radius: 1%;
   border: 2px solid #505050;
@@ -137,7 +137,7 @@ a {
 }
 
 .footer_page h4 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin-top: 0.5rem;
   padding: 0;
   margin-bottom: 0;
@@ -204,10 +204,12 @@ a {
 }
 
 #copyright{
+    width: 75%;
     color: #fff;
-    margin-left: 5px;
-    text-align: justify;
-    font-size: 0.775rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 0.975rem;
     font-family: 'Rajdhani';
 }
 
